@@ -1,0 +1,17 @@
+<html>
+<head>
+        <title>Apartments</title>
+</head>
+<body>
+        <h1>Apartmanok</h1>
+
+        <ul>
+        <?php foreach ($query as $item):?>
+
+                <li><?php echo $item->address;?></li>
+
+        <?php endforeach;?>
+        </ul>
+
+</body>
+</html>

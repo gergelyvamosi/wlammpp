@@ -1,0 +1,35 @@
+gvamosi@gergo1:/var/www/html/apartman/application$ l
+total 52
+drwxr-xr-x 2 gvamosi gvamosi 4096 Sep 19  2019 cache
+drwxr-xr-x 2 gvamosi gvamosi 4096 Apr  8 20:44 config
+drwxr-xr-x 2 gvamosi gvamosi 4096 Apr  8 20:46 controllers
+drwxr-xr-x 2 gvamosi gvamosi 4096 Sep 19  2019 core
+drwxr-xr-x 2 gvamosi gvamosi 4096 Sep 19  2019 helpers
+drwxr-xr-x 2 gvamosi gvamosi 4096 Sep 19  2019 hooks
+-rw-r--r-- 1 gvamosi gvamosi  131 Sep 19  2019 index.html
+drwxr-xr-x 3 gvamosi gvamosi 4096 Sep 19  2019 language
+drwxr-xr-x 2 gvamosi gvamosi 4096 Sep 19  2019 libraries
+drwxr-xr-x 2 gvamosi gvamosi 4096 Sep 19  2019 logs
+drwxr-xr-x 2 gvamosi gvamosi 4096 Apr  8 20:46 models
+drwxr-xr-x 2 gvamosi gvamosi 4096 Sep 19  2019 third_party
+drwxr-xr-x 3 gvamosi gvamosi 4096 Apr  8 20:42 views
+gvamosi@gergo1:/var/www/html/apartman/application$ find . | grep assetz
+gvamosi@gergo1:/var/www/html/apartman/application$ find . | grep asset
+gvamosi@gergo1:/var/www/html/apartman/application$ wget https://github.com/scoumbourdis/codeigniter-simplicity/archive/master.zip
+--2020-05-04 23:02:12--  https://github.com/scoumbourdis/codeigniter-simplicity/archive/master.zip
+Resolving github.com (github.com)... 140.82.118.4
+Connecting to github.com (github.com)|140.82.118.4|:443... connected.
+HTTP request sent, awaiting response... 302 Found
+Location: https://codeload.github.com/scoumbourdis/codeigniter-simplicity/zip/master [following]
+--2020-05-04 23:02:12--  https://codeload.github.com/scoumbourdis/codeigniter-simplicity/zip/master
+Resolving codeload.github.com (codeload.github.com)... 140.82.112.9
+Connecting to codeload.github.com (codeload.github.com)|140.82.112.9|:443... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: unspecified [application/zip]
+Saving to: ‘master.zip’
+
+master.zip                                               [   <=>                                                                                                                ] 241.33K   451KB/s    in 0.5s    
+
+2020-05-04 23:02:14 (451 KB/s) - ‘master.zip’ saved [247119]
+
+gvamosi@gergo1:/var/www/html/apartman/application$ mc

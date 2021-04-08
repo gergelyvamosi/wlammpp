@@ -1,0 +1,21 @@
+root@gergo1:~# apt-get install liburi-encode-perl
+Reading package lists... Done
+Building dependency tree       
+Reading state information... Done
+The following packages were automatically installed and are no longer required:
+  libappindicator3-1 libindicator3-7
+Use 'apt autoremove' to remove them.
+The following NEW packages will be installed:
+  liburi-encode-perl
+0 upgraded, 1 newly installed, 0 to remove and 5 not upgraded.
+Need to get 10.1 kB of archives.
+After this operation, 28.7 kB of additional disk space will be used.
+Get:1 http://httpredir.debian.org/debian buster/main amd64 liburi-encode-perl all 1.1.1-1 [10.1 kB]
+Fetched 10.1 kB in 1s (19.1 kB/s)             
+Selecting previously unselected package liburi-encode-perl.
+(Reading database ... 533359 files and directories currently installed.)
+Preparing to unpack .../liburi-encode-perl_1.1.1-1_all.deb ...
+Unpacking liburi-encode-perl (1.1.1-1) ...
+Setting up liburi-encode-perl (1.1.1-1) ...
+Processing triggers for man-db (2.8.5-2) ...
+root@gergo1:~#
